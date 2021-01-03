@@ -8,6 +8,7 @@ import java.util.Hashtable;
 
 public class Stocks extends HttpServlet{
 
+   //for initial debugging
 	private static Hashtable<String,Double> Listings;
 
 	static{
@@ -15,7 +16,8 @@ public class Stocks extends HttpServlet{
 		Listings.put("VFIAX", 300.77);
 	}
 
-   String apiKey = "WQNITDZV6EI4VJRQ";
+
+   String apiKey = ""; //use ApiKey from alphavantage here
    QuoteEndpoint quote_endpoint = new QuoteEndpoint(apiKey);
    Data GlobalQuoteData;
 

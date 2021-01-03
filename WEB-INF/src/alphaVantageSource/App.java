@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class App{
 	public static void main(String[] args){
-		String apiKey = "WQNITDZV6EI4VJRQ";
+		String apiKey = ""; //use ApiKey from AlphaVantage here
 
         
     	Scanner scanner = new Scanner(System.in);
