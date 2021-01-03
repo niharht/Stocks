@@ -1,0 +1,18 @@
+<web-app>
+	<display-name>Stocks</display-name>
+	<welcome-file-list>
+		<welcome-file>home.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Stocks</servlet-name>
+		<servlet-class>Stocks</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Stocks</servlet-name>
+		<url-pattern>/output</url-pattern>
+	</servlet-mapping>
+
+</web-app>
